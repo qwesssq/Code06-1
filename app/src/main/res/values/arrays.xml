@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titles">
+        <item> 1Is Tomato a Vegetable a or Fruit?</item>
+        <item>2Why do Clocks Run Clockwise?</item>
+        <item>3 Who Invented The Pen?</item>
+        <item>4Abdul Kareem’s Forest</item>
+        <item>5 Venice is Sinking</item>
+        <item> 6Martin Luther King, Jr.</item>
+        <item>7Charlie Chaplin</item>
+        <item>8 How do Satellites Stay Up?</item>
+        <item> 9Programmed to learn</item>
+        <item> 10 How doesa Submarine Work?</item>
+        <item>11Where Did Numerals Originate?    </item>
+        <item>12Why’s the Sun Red during Sunrise and Sunset?    </item>
+        <item>13Why can’t the Sun melt Snow?    </item>
+        <item> 14How are Stars Named?    </item>
+        <item> 15How Far Away are the Stars?    </item>
+        <item> 16An Organism that isvisible from Space</item>
+        <item>  17Why Do We Have Wrinkly Fingers After Swimming?    </item>
+        <item> 18  Why doesn’t our stomach getdigested?    </item>
+        <item>  19What Is The Origin Of Silk Fabric?    </item>
+    </string-array>
+    <string-array name="authors">
+        <item>  1 Chitra Padmanabhan</item>
+        <item>2Rama Kumaraswamy Thoopal</item>
+        <item>3Gargi Pant</item>
+        <item>4Brishti Bandyopadhyay   </item>
+        <item> 5 Rama Kumaraswamy    Thoopal</item>
+        <item>6  Team Pitara</item>
+        <item>7Team Pitara</item>
+        <item>8Jim Nicholls</item>
+        <item>9ChitraPadmanabhan</item>
+        <item>10Ajay Dasgupta</item>
+        <item>11  Bhaswati Ghosh</item>
+        <item>12Rama Kumaraswamy Thoopal</item>
+        <item>13Woodpecker Saakshi</item>
+        <item>14Khanna AjayDasgupta</item>
+        <item>15 Gargi Pant</item>
+        <item>16Ajay Dasgupta</item>
+        <item>17Gargi   Pant</item>
+        <item>18Gargi Pant</item>
+        <item>19chita Wrong</item>
+    </string-array>
+    <string-array name="images">
+        <item>@drawable/img_01</item>
+        <item>@drawable/img_02</item>
+        <item>@drawable/img_03</item>
+        <item>@drawable/img_04</item>
+        <item>@drawable/img_05</item>
+        <item>@drawable/img_06</item>
+        <item>@drawable/img_07</item>
+        <item>@drawable/img_08</item>
+        <item>@drawable/img_09</item>
+        <item>@drawable/img_10</item>
+        <item>@drawable/img_11</item>
+        <item>@drawable/img_12</item>
+        <item>@drawable/img_13</item>
+        <item>@drawable/img_14</item>
+        <item>@drawable/img_15</item>
+        <item>@drawable/img_16</item>
+        <item>@drawable/img_17</item>
+        <item>@drawable/img_18</item>
+        <item>@drawable/img_19</item>
+
+
+
+    </string-array>
+</resources>

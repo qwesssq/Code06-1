@@ -20,6 +20,9 @@ android.useAndroidX=true
 Android 插件会使用对应的 AndroidX 库而非支持库。
 android.enableJetifier=true
 Android 插件会通过重写现有第三方库的二进制文件，自动将这些库迁移为使用 AndroidX。
+
+# 参考
+
 [guet Android guide](https://github.com/xgqin/guet_android_development)
 
 https://github.com/xgqin/guet_android_development

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_ItemActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="60dp"
+        android:background="@color/wheat">
+
+        <ImageView
+            android:id="@+id/img_back_home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:onClick="onClick"
+            android:src="@drawable/home_back" />
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r1">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:background="@color/wheat"
+            >
+
+
+            <ImageView
+                android:id="@+id/ig_myshareimage"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_home_item_title"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ig_myshareimage"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+
+                />
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:id="@+id/tv_home_item_detail"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_home_item_title"
+                android:layout_alignParentLeft="true"
+
+
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/home_item_commentscount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_home_item_detail"
+                android:textSize="20sp"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_home_item_commentlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/home_item_commentscount"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:id="@+id/end"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/rv_home_item_commentlist"
+                android:gravity="center"
+                android:text="-The End-" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+
+        android:layout_alignParentBottom="true"
+        android:background="@color/wheat"
+        >
+
+        <EditText
+            android:id="@+id/home_item_Entercomments"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edittext_shape"
+            android:gravity="center"
+            android:hint="请输入内容" />
+
+        <ImageView
+
+            android:id="@+id/ig_home_item_collect"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onClick"
+            android:src="@drawable/shouchang" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/Comment"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:text="发表评论"
+            android:onClick="onClick"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

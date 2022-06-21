@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.person.PersonFragment"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <ImageView
+            android:id="@+id/person_headportrait"
+            android:layout_width="91dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:onClick="onClick"
+            android:src="@mipmap/head" />
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/person_headportrait"
+            android:layout_marginStart="110dp"
+            android:textSize="20sp"
+            android:onClick="onClick"
+            />
+
+        <TextView
+            android:id="@+id/person_id"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/person_headportrait"
+            android:layout_marginStart="165dp"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/person_headportrait"
+            android:layout_marginStart="110dp"
+            android:text="账号:"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/personal_data"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/person_headportrait"
+            android:layout_marginTop="120dp"
+            android:hint="去完善你的个人资料吧" />
+
+        <TextView
+            android:id="@+id/person_concern_count"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@id/person_headportrait"
+            android:layout_marginTop="160dp" />
+
+        <TextView
+            android:id="@+id/person_fans_count"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="160dp" />
+
+        <TextView
+            android:id="@+id/person_collection_count"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="160dp" />
+
+        <TextView
+            android:id="@+id/person_concern"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@id/person_headportrait"
+            android:layout_marginTop="200dp"
+            android:hint="关注"
+
+            />
+
+        <TextView
+            android:id="@+id/person_fans"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="200dp"
+            android:hint="粉丝" />
+
+        <TextView
+            android:id="@+id/person_collection"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:hint="获赞" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F7F9FD"
+        >
+        <TextView
+            android:id="@+id/schj"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="收藏"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+
+            />
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/schj"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Rv_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#F7F9FD"
+                android:scrollbars="none">
+            </androidx.recyclerview.widget.RecyclerView>
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

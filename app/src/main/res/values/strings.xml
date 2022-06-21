@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">图片分享软件</string>
+    <string name="title_activity_button_nagivation">MainActivity</string>
+    <string name="title_home">主页</string>
+    <string name="title_dynamic">动态</string>
+    <string name="title_message">消息</string>
+    <string name="title_person">个人中心</string>
+    <string name="password_tv">password</string>
+</resources>

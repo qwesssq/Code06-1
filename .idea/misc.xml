@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/dynamic_selector.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/edittext_shape.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/edittext_shape1.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/edittext_shape2.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/home_selector.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/message_1_shape.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/message_2_shape.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/message_3_shape.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/message_list_image_shape.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/message_selector.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/drawable/shape.xml" value="0.2065" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/layout/activity_button_nagivation.xml" value="0.12588652482269502" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/layout/activity_create_my_photo.xml" value="0.12588652482269502" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/layout/avtivity_home_item_click_layout.xml" value="0.25885416666666666" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/layout/fragment_home.xml" value="0.15260416666666668" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/layout/recycleview_dynamic_item.xml" value="0.15260416666666668" />
+        <entry key="..\:/AndroidStudioWorkplace/final/Code06/app/src/main/res/layout/recycleview_home_item.xml" value="0.4" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/drawable/home_selector.xml" value="0.1" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/activity_button_nagivation.xml" value="0.1" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/activity_create_my_photo.xml" value="0.24320652173913043" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/activity_main.xml" value="0.15353260869565216" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/avtivity_home_item_click_layout.xml" value="0.1" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/fragment_dashboard.xml" value="0.10916919959473151" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/fragment_notifications.xml" value="0.1157548125633232" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/fragment_person.xml" value="0.1" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/recycleview_dynamic_item.xml" value="0.10916919959473151" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/recycleview_home_item.xml" value="0.16" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/recycleview_home_item_comments.xml" value="0.24320652173913043" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/recycleview_message_item.xml" value="0.24320652173913043" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/recycleview_mine_item.xml" value="0.2" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/layout/recycleview_person_item.xml" value="0.24320652173913043" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/android work/Code06/Code06/app/src/main/res/xml/network_security_config.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

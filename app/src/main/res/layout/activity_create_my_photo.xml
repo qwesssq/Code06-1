@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateMyPhotoActivity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/addmImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/addimage" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_gettitle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:hint="请输入标题" />
+
+        <EditText
+            android:id="@+id/et_getdetail"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="5dp"
+            android:hint="请输入内容" />
+
+        <Button
+            android:id="@+id/bt_determine"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="260dp"
+
+            android:onClick="onClick"
+
+            android:text="发布" />
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="260dp"
+            android:onClick="onClick"
+            android:text="取消" />
+    </RelativeLayout>
+</LinearLayout>
